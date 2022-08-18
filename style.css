@@ -1,0 +1,107 @@
+/* CSS Rseset */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: #11998e;
+/* background: -webkit-linear-gradient(to right, #15c4b5, #38ef7d); */
+background: linear-gradient(to right, #18e2d1, #38ef7d);
+font-family: 'Montserrat', sans-serif;
+}
+
+.container{
+    background-color: #1C2833;
+    border-radius: 15px;
+    margin: 33px auto;
+    width: 390px;
+    height: 550px;
+    box-shadow: 0 4px 15px 0 rgb(0 0 0 / 64%), 0 15px 20px 0 rgb(0 0 0 / 59%);
+}
+
+#cal{
+    display: flex;
+    align-items: flex-end;
+    justify-content: right;
+    /* border: 2px solid black; */
+    height: 50px;
+    font-size: 22px;
+    padding: 0px 12px;
+    color: rgb(212, 209, 209);
+}
+
+#ans{
+    display: flex;
+    color: rgb(252, 251, 251);
+    border-top: 0.5px solid rgba(189, 187, 187, 0.3);
+    border-bottom: 0.5px solid rgba(245, 245, 245, 0.3);
+    height: 62px;
+    align-items: flex-end;
+    justify-content: right;
+    font-size: 30px;
+    padding: 0px 12px;
+}
+
+#num{
+    /* border: 2px solid black; */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 5px;
+    margin: 40px 10px 10px 27px;
+    font-size: 50px;
+}
+
+.operator, .number, .empty{
+    height: 60px;
+    border-radius: 50px;
+    width: 60px;
+    border: none;
+    box-shadow: 2px 2px 3px rgb(141, 141, 141);
+    cursor: pointer;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+} 
+
+.operator{
+    background-color: #d1d1d1;
+}
+
+.operator:hover, .number:hover{
+    opacity:  0.7;
+}
+#add{
+    background-color: #20b2aa;
+}
+#minus{
+    background-color: #E59866;
+}
+#multiply{
+    background-color: #9477af;
+}
+#divide{
+    /* background-color: #82E0AA; */
+    background-color: orange;
+}
+
+#percentage{
+    background-color: yellow;
+}
+#equal{
+    background-color: #11998e;
+}
+#clear{
+    background-color: #7d93e0;
+}
+#backspace{
+    background-color: #f08080;
+}
+
+#dsgn-by{
+    margin: 20px 12px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: whitesmoke;
+    opacity: 0.3;
+}

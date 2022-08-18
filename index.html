@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator HTML, CSS & Javascript</title>
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js" defer></script>
+</head>
+
+<body>
+    <div class="container">
+        <p id="cal"></p>
+        <div id="ans"></div>
+        <div id="num">
+            <button class="operator" id="clear" onclick="opclear()">C</button>
+            <button class="operator" id="backspace" onclick="opclearlast()">CE</button>
+            <button class="operator" id="percentage" onclick=""></button>
+            <button class="operator" id="add" onclick="opadd()">+</button>
+            <button class="number" id="7" onclick="num7()">7</button>
+            <button class="number" id="8" onclick="num8()">8</button>
+            <button class="number" id="9" onclick="num9()">9</button>
+            <button class="operator" id="multiply" onclick="opmul()">x</button>
+            <button class="number" id="4" onclick="num4()">4</button>
+            <button class="number" id="5" onclick="num5()">5</button>
+            <button class="number" id="6" onclick="num6()">6</button>
+            <button class="operator" id="minus" onclick="opmin()">-</button>
+            <button class="number" id="1" onclick="num1()">1</button>
+            <button class="number" id="2" onclick="num2()">2</button>
+            <button class="number" id="3" onclick="num3()">3</button>
+            <button class="operator" id="divide" onclick="opdiv()">&#247</button>
+            <button class="number" id="point" onclick="numpoint()">.</button>
+            <button class="number" id="0" onclick="num0()">0</button>
+            <button class="empty" id="empty"></button>
+            <button class="operator" id="equal" onclick="opequal()">=</button>
+        </div>
+        <div id="dsgn-by">Designed By <br>Mohammad Owais</div>
+
+    </div>
+
+
+</body>
+</html>
